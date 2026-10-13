@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/etudiant-diplome-64.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&family=Poppins:wght@700&display=swap" />
+    <link rel="stylesheet" href="../css/Global.css" />
+    <link rel="stylesheet" href="../css/en_construction.css" />
+    <title>COURS SIO WEB | GitHub</title>
+  </head>
+  <body>
+    <!-- En-tête de la page : logo + navigation + menu burger (mobile) -->
+    <header>
+      <nav>
+        <div class="logo">COURS SIO WEB</div>
+        <div class="menu" id="menu">
+            <a href="../index.html">Accueil</a>
+            <a href="html.html">HTML</a>
+            <a href="css.html">CSS</a>
+            <a href="javascript.html">JavaScript</a>
+            <a href="php.html">PHP</a>
+            <a href="kotlin.html">Kotlin</a>
+            <a href="python.html">Python</a>
+            <a href="sql.html">SQL</a>
+            <a href="angular.html">Angular</a>
+            <a href="bootstrap.html">Bootstrap</a>
+            <a href="laravel.html">Laravel</a>
+            <a href="git.html">Git</a>
+            <a href="github.html">GitHub</a>
+            <a href="linux.html">Linux</a>
+            <a href="linux_command_line.html">Commandes Linux</a>
+            <a href="cv.html">CV</a>
+        </div>
+        <div class="burger" id="burger" aria-label="Menu" aria-expanded="false" role="button" tabindex="0">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </nav>
+    </header>
+    <!-- Contenu principal -->
+    <main>
+      <div class="construction">
+        <div class="construction-icone" aria-hidden="true">🚧</div>
+        <h1>GitHub : page en construction</h1>
+        <p>Cette page est en construction. <strong>Revenez bientôt !</strong></p>
+        <p><button><a href="../index.html">Retour à l'accueil</a></button></p>
+      </div>
+    </main>
+    <!-- Pied de page : formulaire de contact + droits d'auteur -->
+    <footer>
+      <section class="contact" aria-labelledby="titre-contact-github">
+        <h2 id="titre-contact-github">Contactez-nous</h2>
+        <!-- form : conteneur du formulaire. method="post" envoie les données dans le corps de la requête,
+             action="#" indique l'adresse du script qui traitera les données (à remplacer par un script serveur) -->
+        <form class="contact-form" method="post" action="#">
+          <!-- label lié par for/id au champ : améliore l'accessibilité -->
+          <label for="nom-github">Nom</label>
+          <!-- name : nom sous lequel la valeur est envoyée ; required : champ obligatoire -->
+          <input type="text" id="nom-github" name="nom" placeholder="Votre nom" required />
+          <label for="email-github">Email</label>
+          <!-- type="email" : le navigateur vérifie le format d'une adresse email -->
+          <input type="email" id="email-github" name="email" placeholder="vous@exemple.fr" required />
+          <label for="message-github">Message</label>
+          <!-- textarea : zone de texte multiligne -->
+          <textarea id="message-github" name="message" rows="4" placeholder="Votre message" required></textarea>
+          <!-- bouton qui déclenche l'envoi du formulaire -->
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+      <!-- définition des droits d'auteur -->
+      <p class="copyright">&copy; 2026 COURS SIO WEB LDV Melun. Tous droits réservés.</p>
+    </footer>
+    <!-- script en bas de page, après le footer -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>

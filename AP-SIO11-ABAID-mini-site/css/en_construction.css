@@ -1,0 +1,18 @@
+/* Style minimaliste des pages en construction */
+.construction {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: white;
+  border: 3px dashed #f0a500;
+  border-radius: 12px;
+}
+
+.construction-icone {
+  font-size: 4rem;
+}
+
+.construction h1 {
+  color: #b36b00;
+}
